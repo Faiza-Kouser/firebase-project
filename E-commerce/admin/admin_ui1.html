@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./adminstyle.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="userIntro">
+            <div class="userImage">
+                <img src="./images_admin/icon1.png" class="user_img">
+                <p id="userName">User Name</p><br>
+                <p class="p1">Admin</p>
+            </div>
+        </div>
+        <hr class="hr-line">
+        <div class="sub-div">
+            <div class="div-uploadImg">
+                <label for="file">
+                <img src="./images_admin/camera.png" class="camera" id="user_img">
+            </label>
+                <input type="file" id="file" name="imgFile" accept="image/*">
+                <!-- <button id="upload" hidden>Upload</button> -->
+            </div>
+
+            <div class="div-1">
+                <input type="text" class="itemName" placeholder="Item Name" id="item_name">
+            </div>
+
+            <div class="div-2">
+                <select id="cate" name="category" class="category">
+                    <option selected disabled>Select Category</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="meat">Meat</option>
+                    <option value="masala">Masala</option>
+                </select>
+            </div>
+            <div class="div-3">
+                <input type="text" class="description" placeholder="Description" id="descript">
+            </div>
+
+            <div class="div-4">
+
+                <input type="text" class="unitName" placeholder="kg/dozen/gms" id="unit">
+            </div>
+
+            <div class="div-5">
+                <input type="text" class="unitprice" placeholder="0.00 Rupees" id="price">
+            </div>
+        </div>
+
+        <div class="btn-div">
+            <button class="ad-btn" onclick="">
+                <p class="p3">Add Product</p>
+            </button>
+        </div>
+
+        <div class="footer">
+            <img src="./images_admin/home.png" id="home">
+           <button id="upload"> <img src="./images_admin/add.png" id="addImg"></button>
+            <img src="./images_admin/account.png" id="account"><br>
+            <div class="text">
+                <p>Home</p>
+                <p>Add</p>
+                <p>Account</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+   
+    <script type="module" src="../app.js"></script>
+</body>
+
+</html>

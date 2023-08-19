@@ -1,0 +1,245 @@
+/* *******************************1st page*********************************** */
+.screen1,
+.screen2,
+.screen3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 342px;
+    height: 268px;
+    mix-blend-mode: multiply;
+
+}
+
+.p1 {
+    color: #61B846;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+
+.p2 {
+    color: #024F9D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px;
+
+
+}
+
+/* .p3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    padding: 2px;
+} */
+.p4{
+    font-size: 20px;
+    color: #024F9D;
+}
+
+.btn {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    /* font-style: normal; */
+    padding: 2px;
+    width: 250px;
+
+    /* height: 50px; */
+    /* padding-bottom: 70px; */
+    border-radius: 15px;
+    background: #61B846;
+    margin-top: 100px;
+    /* box-shadow: 0px 4px 4px 5px #D4D3D3; */
+    border: 0px;
+
+}
+
+/* *******************************1st page end*********************************** */
+
+
+/* *******************************signup page*********************************** */
+.field-div {
+    display: flex;
+    justify-content: center;
+}
+
+.fields {
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #d5d5d6;
+    width: 350px;
+    height: 35px;
+    font-family: Inter;
+    font-size: 18px;
+    padding-left: 4px;
+    line-height: 25px;
+    padding: 2px;
+}
+ ::placeholder{
+    color: #b4a1a1;
+ }
+.mini-icon {
+    position: absolute;
+    padding-left: 324px;
+    width: 35px;
+    height: 35px;
+    opacity: 0.2;
+   
+}
+.mini-icon2 {
+    position: absolute;
+    padding-left: 324px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+   
+}
+.mini-icon3 {
+    position: absolute;
+    padding-left: 324px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.9;
+   
+}
+.field-radio{
+    display: flex;
+    justify-content: center;
+}
+.radio-btn{
+    font-size: 54px;
+}
+.radio{
+    padding: 0px 35px;
+}
+
+/* *******************************signup page  end*********************************** */
+
+
+
+/* *******************************ui-1 page*********************************** */
+.screen4{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.head4{
+    display: flex;
+}
+.p5{
+    color: #61B846;
+font-family: Inter;
+font-size: 33px;
+font-style: normal;
+font-weight: 700;
+line-height: 1px;
+
+}
+
+.p6{
+    color: #024F9D;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 1px;
+padding-left: 18px;
+}
+
+.cart{
+ width: 50px;
+ height: 50px;
+ padding-top: 30px;
+ padding-left: 900px;
+}
+
+.grocery{
+    width: 100%;
+}
+.btns{
+
+    border: none;
+}
+.search-div{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.search-icon{
+      width: 25px;
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+}
+.search{
+    padding-left: 5px;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: rgb(148, 145, 141);
+    width: 500px;
+    height: 30px;
+}
+.p7{
+    color: #000;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+}
+
+.c-img{
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+    border: 2px solid #61B846;
+   border-radius: 15px;
+
+}
+/* ///////////////////////////////////////USER UI\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+/* *******************************ui-1 page  end*********************************** */
+.Category{
+    display: flex;
+}
+.category_type{
+    font-size: 22px;
+    line-height: 0px;
+}
+.cat-text{
+    text-align: center;
+}
+#product-text{
+    font-size: 22px;
+}
+
+/* *******************************ui-2 page*********************************** */
+
+/* *******************************ui-2 page  end*********************************** */
+
+
+/* *******************************ui-3 page*********************************** */
+
+/* *******************************ui-3 page  end*********************************** */
+
+
+/* *******************************ui-4 page*********************************** */
+
+/* *******************************ui-4 page  end*********************************** */
+
+
+/* =====================admin ui1----------------------------------- */
